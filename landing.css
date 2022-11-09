@@ -1,11 +1,18 @@
 .body-class {
     font-family: 'Roboto', sans-serif;
+    background-color:#1F2937
 }
 
-.header-style {
+.nav-bar {
     display: flex;
     background-color: #1F2937;
-    padding:100px;
+    justify-content: space-evenly;
+}
+
+.main-heading {
+    padding-top: 100px;
+    display: flex;
+    justify-content: left;
 }
 
 .section-1 {
@@ -13,7 +20,7 @@
     padding:40px;
 }
 
-.section-2 P{
+.section-2 {
     background-color: lightgray;
     padding: 40px;
 }
