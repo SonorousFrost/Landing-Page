@@ -1,0 +1,19 @@
+.body-class {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-style {
+    display: flex;
+    background-color: #1F2937;
+    padding:100px;
+}
+
+.section-1 {
+    background-color:white;
+    padding:40px;
+}
+
+.section-2 P{
+    background-color: lightgray;
+    padding: 40px;
+}
