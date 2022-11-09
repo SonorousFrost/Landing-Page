@@ -1,6 +1,9 @@
 .body-class {
     font-family: 'Roboto', sans-serif;
-    background-color:#1F2937
+    background-color:#1F2937;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
 }
 
 .nav-bar {
@@ -20,6 +23,8 @@
     padding-top: 100px;
     display: flex;
     justify-content: left;
+    color: white;
+    
 }
 
 .section-1 {
