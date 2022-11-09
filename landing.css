@@ -6,12 +6,13 @@
 .nav-bar {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
+    gap: 10px;
+    justify-content: right;
 }
 
 #logo {
     font-size: 20px;
-    padding-right: 60px;
+    flex: 2;
 }
 
 .main-heading {
