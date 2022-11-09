@@ -8,10 +8,11 @@
     background-color: #1F2937;
     gap: 10px;
     justify-content: right;
+    color: white;
 }
 
 #logo {
-    font-size: 20px;
+    font-size: 35px;
     flex: 2;
 }
 
