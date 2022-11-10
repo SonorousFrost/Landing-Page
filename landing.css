@@ -1,9 +1,8 @@
 .body-class {
     font-family: 'Roboto', sans-serif;
     background-color:#1F2937;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .nav-bar {
@@ -12,19 +11,52 @@
     gap: 10px;
     justify-content: right;
     color: white;
+    font-size:13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: bold;
 }
 
 #logo {
-    font-size: 35px;
+    font-size: 25px;
     flex: 2;
 }
 
 .main-heading {
-    padding-top: 100px;
+    padding-top: 75px;
     display: flex;
-    justify-content: left;
+    flex-direction:row;
+    justify-content: space-evenly;
     color: white;
-    
+    height: 300px;
+}
+
+.splash {
+    width: 350px;
+}
+
+.subtext {
+    color: lightgray;
+}
+
+.sign-up {
+    background-color:#3882F6;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    border-style: initial;
+    font-weight: bold;
+}
+
+.img-holder {
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-1 {
