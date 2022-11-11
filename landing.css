@@ -81,7 +81,7 @@
     color: #1F2937;
 }
 
-.blocks {
+.blocks /* Image blocks container */ {
     background: white;
     background-repeat: no;
     align-items: center;
