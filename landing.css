@@ -73,15 +73,15 @@
 }
 
 .info-header {
-    padding-top: 15px;
-    font-weight: 800;
+    padding-top: 30px;
+    font-weight: 900;
     color: #1F2937;
 }
 
 .blocks {
     background: white;
     background-repeat: no;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -89,7 +89,7 @@
     font-size: 13px;
 }
 
-.blocks img {
+.blocks a {
     border: solid;
     border-color:#3882F6;
     border-radius: 10px;
