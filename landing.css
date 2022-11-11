@@ -25,11 +25,13 @@
 
 .main-heading {
     padding-top: 75px;
+    padding-bottom: 75px;
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
     color: white;
     height: 300px;
+    
 }
 
 .splash {
@@ -70,10 +72,12 @@
     background-color: white;
     text-align: center;
     font-size: 36px;
+    height: 300px;
 }
 
 .info-header {
     padding-top: 30px;
+    padding-bottom: 60px;
     font-weight: 900;
     color: #1F2937;
 }
@@ -81,10 +85,6 @@
 .blocks {
     background: white;
     background-repeat: no;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
     align-items: center;
     font-size: 13px;
 }
@@ -94,20 +94,5 @@
     border-color:#3882F6;
     border-radius: 10px;
     margin: 15px;
-}
-
-.four {
-    padding: 60px;
-}
-
-.five {
-    padding: 60px;
-}
-
-.six {
-    padding: 60px;
-}   
-
-.seven {
     padding: 60px;
 }
