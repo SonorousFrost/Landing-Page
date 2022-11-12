@@ -17,10 +17,20 @@
     font-weight: bold;
 }
 
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
 #logo {
     font-size: 24px;
     flex: 2;
     color:F9FAF8;
+}
+
+#logo-img {
+    height: 100px;
+    width: 100px;
 }
 
 .main-heading {
@@ -49,8 +59,8 @@
 }
 
 .sign-up {
-    background-color:#ffe084ba;
-    color:white;
+    background-color: #6CCDD5;
+    color: #1F2937;
     width: 100px;
     height: 30px;
     border-radius:5px;
@@ -58,7 +68,6 @@
     font-weight: bold;
 }
 
-/* remove and replace with image */
 .main {
     background-color: white;
     text-align: center;
@@ -82,7 +91,7 @@
 
 #blocks img {
     border: solid;
-    border-color:#1ebab4;
+    border-color: #6CCDD5;
     border-radius: 10px;
     margin: 15px;
     padding: 60px;
