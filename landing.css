@@ -9,9 +9,9 @@
 .nav-bar {
     display: flex;
     background-color: #733046;
-    gap: 10px;
+    gap: 30px;
     color: white;
-    font-size:18px;
+    font-size: 18px;
     margin-left: 25px;
     margin-right: 25px;
     font-weight: bold;
@@ -70,13 +70,14 @@
 
 .main {
     background-color: white;
-    text-align: center;
     font-size: 36px;
     height: 300px;
+    text-align: center;
 }
 
 .info-header {
     padding-top: 30px;
+    padding-bottom: 30px;
     font-weight: 900;
     color: #1F2937;
 }
@@ -84,25 +85,19 @@
 #blocks /* Image blocks container */ {
     background: white;
     background-repeat: no;
-    align-items: center;
     font-size: 13px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 #blocks img {
     border: solid;
     border-color: #6CCDD5;
     border-radius: 10px;
-    margin: 15px;
     height: 100px;
     width: 100px;
-    align-content: center;
-    justify-content: center;
 }
-
-.blocks p {
-    text-align: justify;
-}
-
-
 
