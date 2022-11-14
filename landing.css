@@ -22,26 +22,25 @@
     text-decoration: none;
 }
 
-#logo {
-    font-size: 24px;
+#page-header {
+    font-size: 32px;
     flex: 2;
     color:F9FAF8;
 }
 
 #logo-img {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
 }
 
 .main-heading {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 100px;
+    padding-bottom: 175px;
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
     color: white;
     height: 300px;
-    
 }
 
 .splash {
@@ -49,21 +48,22 @@
 }
 
 .splash h1 {
-    font-size: 48px;
+    font-size: 54px;
     font-weight: 800;
     color:F9FAF8;
 }
 
 .subtext {
     color: lightgray;
+    font-size: 16px;
 }
 
-.sign-up {
+.button {
     background-color: #6CCDD5;
     color: #1F2937;
     width: 100px;
     height: 30px;
-    border-radius:5px;
+    border-radius: 5px;
     border-style: initial;
     font-weight: bold;
 }
@@ -85,7 +85,7 @@
 #blocks /* Image blocks container */ {
     background: white;
     background-repeat: no;
-    font-size: 13px;
+    font-size: 16px;
     width: 100%;
     display: flex;
     justify-content: center;
