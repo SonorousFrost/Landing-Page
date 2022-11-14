@@ -22,6 +22,10 @@
     text-decoration: none;
 }
 
+.nav-bar a:hover {
+    color: #F7E6B1;
+}
+
 #page-header {
     font-size: 32px;
     flex: 2;
@@ -68,8 +72,13 @@
     font-weight: bold;
 }
 
+.button:hover{
+    color: #F7E6B1;
+}
+
 .main {
     background-color: white;
+    background-repeat: no-repeat;
     font-size: 36px;
     height: 300px;
     text-align: center;
@@ -103,4 +112,3 @@
     height: 150px;
     width: 150px;
 }
-
