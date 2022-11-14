@@ -94,11 +94,16 @@
     border-color: #6CCDD5;
     border-radius: 10px;
     margin: 15px;
-    padding: 60px;
+    padding: 50px;
 }
 
 .blocks p {
     text-align: justify;
+}
+
+.blocks img {
+    width: 60px;
+    height: 60px;
 }
 
 
