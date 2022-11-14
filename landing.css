@@ -1,6 +1,6 @@
 .body-class {
     font-family: 'Roboto', sans-serif;
-    background: #733046;
+    background: rgba(115, 48, 70, .85);
     background-repeat: no-repeat;
     margin: 0;
     margin-top: 10px;
@@ -8,12 +8,14 @@
 
 .nav-bar {
     display: flex;
-    background-color: #733046;
+    background-color: rgb(115, 48, 70,);
     gap: 30px;
     color: white;
     font-size: 18px;
     margin-left: 25px;
     margin-right: 25px;
+    padding-bottom: 40px;
+    padding-top: 10px;
     font-weight: bold;
 }
 
@@ -45,6 +47,14 @@
     justify-content: space-evenly;
     color: white;
     height: 300px;
+    border: solid;
+    border-radius: 10px;
+    border-color:#F7E6B1;
+    border-width: 5px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgba(115, 48, 70, 1);
 }
 
 .splash {
@@ -78,10 +88,15 @@
 
 .main {
     background-color: white;
-    background-repeat: no-repeat;
     font-size: 36px;
-    height: 300px;
     text-align: center;
+    border: solid;
+    border-color:#6CCDD5;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 25px;
 }
 
 .info-header {
@@ -111,4 +126,8 @@
     border-radius: 10px;
     height: 150px;
     width: 150px;
+}
+
+.quote-section {
+    background-color: white;
 }
