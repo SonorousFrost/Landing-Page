@@ -1,1 +1,2 @@
-all files in /images/ personally created using online software
+images sourced from Pexels.com
+
