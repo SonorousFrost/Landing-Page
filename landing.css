@@ -84,7 +84,8 @@
 }
 
 .button:hover{
-    color: #F7E6B1;
+    color: black;
+    background-color: #F7E6B1;
 }
 
 .main {
@@ -156,6 +157,52 @@
     color:#F7E6B1;
 }
 
-#call-action {
-    
+
+.call-action {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border: solid;
+    border-color:#6CCDD5;
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: #6ccdd5;
+    color: white;
+    padding: 10px;
+}
+
+#action-butt {
+    border-style:initial;
+    border-radius: 5px;
+    height: 35px;
+    width: 85px;   
+    margin-left: 480px;
+    background-color: white;
+    font-size: 15px;
+}
+
+#action-butt:hover {
+    color: white;
+    background-color: rgba(115, 48, 70, .85);
+}
+
+.call-action h3 {
+    font-size: 24px;
+}
+
+.call-action h5 {
+    font-size: 18px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 25px;
+    background: rgba(115, 48, 70, .85);
+    padding: 10px;
+    border: solid;
+    border-color:#F7E6B1;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-family: Roboto;
 }
