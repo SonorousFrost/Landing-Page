@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     margin: 40px;
     margin-top: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-bar {
