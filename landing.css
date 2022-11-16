@@ -199,8 +199,9 @@
 .bottom {
     text-align: center;
     margin-top: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
     background: rgba(115, 48, 70, .85);
-    padding: 10px;
     border: solid;
     border-color:#F7E6B1;
     border-radius: 10px;
