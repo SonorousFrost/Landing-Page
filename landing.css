@@ -3,24 +3,23 @@
 .body-class {
     font-family: 'Roboto', sans-serif;
     background: rgba(115, 48, 70, .85);
-    background-repeat: no-repeat;
-    margin: 40px;
     margin-top: 10px;
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav-bar {
     display: flex;
     background-color: rgb(115, 48, 70,);
-    gap: 30px;
+    gap: 15px;
     color: white;
     font-size: 18px;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-bottom: 40px;
     padding-top: 10px;
     font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .nav-bar a {
@@ -32,40 +31,15 @@
     color: #F7E6B1;
 }
 
-#page-header {
-    font-size: 32px;
-    flex: 2;
-    color:F9FAF8;
-}
-
-#logo-img {
-    height: 300px;
-    width: 300px;
-}
-
 .heading {
-    padding-top: 100px;
-    padding-bottom: 125px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
+    padding: 30px;
     color: white;
-    height: 300px;
-    border: solid;
     border-radius: 10px;
-    border-color:#F7E6B1;
-    border-width: 5px;
-    margin-left: 80px;
-    margin-right: 80px;
     background-color: rgba(115, 48, 70, 1);
 }
 
-.splash {
-    width: 350px;
-}
-
 .splash h1 {
-    font-size: 54px;
+    font-size: 35px;
     font-weight: 800;
     color:F9FAF8;
 }
@@ -78,7 +52,7 @@
 .button {
     background-color: #6CCDD5;
     color: whitesmoke;
-    width: 100px;
+    width: 80px;
     height: 30px;
     border-radius: 5px;
     border-style: initial;
@@ -92,16 +66,11 @@
 
 .main {
     background-color: rgba(115, 48, 70, 1);
-    font-size: 36px;
     text-align: center;
-    border: solid;
-    border-color:#6CCDD5;
     border-radius: 10px;
-    border-width: 5px;
-    margin-left: 80px;
-    margin-right: 80px;
     margin-top: 25px;
     padding-bottom: 100px;
+    box-shadow: 0px 1px 30px white;
 }
 
 .info-header {
@@ -109,39 +78,34 @@
     padding-bottom: 30px;
     font-weight: 900;
     color: white;
+    font-size: 20px;
 }
 
- /* Image blocks container */
+ /* Image blocks containers */
 #blocks {
     background: rgba(115, 48, 70, 1);
     background-repeat: no;
-    font-size: 18px;
-    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 50px;
+    gap: 10px;
     padding-top: 20px;
     color: white;
+    margin: 10px;
 }
 
 #blocks img {
-    border: solid;
-    border-color: #6CCDD5;
-    border-radius: 10px;
-    height: 150px;
-    width: 150px;
+    border-radius: 15px;
+    height: 75px;
+    width: 75px;
+}
+
+#blocks img:hover {
+    transform: scale(115%)
 }
 
 .quote {
     background-color: rgba(115, 48, 70, 1);
-    font-family: Roboto;
-    border: solid;
-    border-color: #F7E6B1;
     border-radius: 10px;
-    border-width: 5px;
-    margin-left: 80px;
-    margin-right: 80px;
     margin-top: 25px;
     padding: 50px;
     text-align: center;
@@ -150,25 +114,17 @@
 }
 
 .quote p {
-    font-size: 30px;
     color: white;
 }
 
 .quote h3 {
-    font-size: 25px;
     color:#F7E6B1;
 }
 
-
 .call-action {
-    margin-left: 250px;
-    margin-right: 250px;
     margin-top: 25px;
-    border: solid;
-    border-color:#6CCDD5;
-    border-width: 10px;
     border-radius: 10px;
-    background-color: #6ccdd5;
+    background-color: #baac83;
     color: white;
     padding: 10px;
 }
@@ -176,11 +132,11 @@
 #action-butt {
     border-style:initial;
     border-radius: 5px;
-    height: 35px;
-    width: 85px;   
-    margin-left: 480px;
+    height: 25px;
+    width: 65px;
+    margin-left: 83%;   
     background-color: white;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #action-butt:hover {
@@ -192,20 +148,12 @@
     font-size: 24px;
 }
 
-.call-action h5 {
-    font-size: 18px;
-}
-
 .bottom {
     text-align: center;
     margin-top: 25px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-bottom: 15px;
     background: rgba(115, 48, 70, .85);
-    border: solid;
-    border-color:#F7E6B1;
     border-radius: 10px;
-    font-size: 16px;
     color: white;
-    font-family: Roboto;
+    padding: 1px;
 }
