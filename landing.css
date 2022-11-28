@@ -1,4 +1,10 @@
 /* Content Containers are spaced with margin-top: 25px; */
+.html {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+
 
 .body-class {
     font-family: 'Roboto', sans-serif;
@@ -6,10 +12,7 @@
     margin-top: 10px;
     max-width: 1080px;
     margin: 0 auto;
-    margin-left: 10px;
-    margin-right: 10px;
 }
-
 .nav-bar {
     display: flex;
     background-color: rgb(115, 48, 70,);
@@ -18,8 +21,9 @@
     font-size: 18px;
     padding-top: 10px;
     font-weight: bold;
-    margin-left: 20px;
     margin-bottom: 10px;
+    justify-content: right;
+    margin-right: 10px;
 }
 
 .nav-bar a {
