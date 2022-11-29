@@ -1,12 +1,12 @@
-/* Content Containers are spaced with margin-top: 25px; */
+/* Content Containers are spaced with margin-top: 25px;*/
 .html {
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .body-class {
-    font-family: 'Roboto', sans-serif;
-    background: rgba(115, 48, 70, .85);
+    font-family: Bangers,'Roboto', sans-serif;
+    background: #cc75ad;
     margin-top: 10px;
     max-width: 1080px;
     margin: 0 auto;
@@ -15,7 +15,6 @@
 .nav-bar {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(115, 48, 70,);
     gap: 15px;
     color: white;
     font-size: 18px;
@@ -27,23 +26,24 @@
 
 .nav-bar a {
     color: white;
-    text-decoration: none;
+    font-style: italic;
 }
 
 .nav-bar a:hover {
-    color: #F7E6B1;
+    color: #ADCC75;
 }
 
 .heading {
     padding: 20px;
     color: white;
     border-radius: 10px;
-    background-color: rgba(115, 48, 70, 1);
+    background-color: #924f7b ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: larger;
 }
 
 .splash h1 {
@@ -58,28 +58,28 @@
 }
 
 .button {
-    background-color: #6CCDD5;
-    color: whitesmoke;
+    background-color: white;
+    color: black;
     width: 80px;
     height: 30px;
     border-radius: 5px;
     border-style: initial;
-    font-weight: bold;
     margin-top: 85px;
+    font-family: Bangers;
 }
 
 .button:hover{
-    color: black;
-    background-color: #F7E6B1;
+    background-color: #ADCC75;
+    color: white;
 }
 
 .main {
-    background-color: rgba(115, 48, 70, 1);
+    background-color: #75ADCC;
     text-align: center;
     border-radius: 10px;
     margin-top: 25px;
     padding-bottom: 100px;
-    box-shadow: 0px 1px 30px white;
+    box-shadow: 0px 1px 30px whitesmoke;
 }
 
 .info-header {
@@ -87,12 +87,12 @@
     padding-bottom: 30px;
     font-weight: 900;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
  /* Image blocks containers */
 #blocks {
-    background: rgba(115, 48, 70, 1);
+    background: #75ADCC;
     background-repeat: no;
     display: flex;
     justify-content: center;
@@ -107,7 +107,7 @@
     border-radius: 45px;
     height: 130px;
     width: 130px;
-    box-shadow: 0px 1px 15px #F7E6B1;
+    box-shadow: 0px 1px 15px white;
 }
 
 #blocks img:hover {
@@ -115,27 +115,28 @@
 }
 
 .quote {
-    background-color: rgba(115, 48, 70, 1);
+    background-color: #924f7b ;
     border-radius: 10px;
     margin-top: 25px;
     padding: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-size: larger;
 }
 
 .quote p {
-    color: white;
+    color: lightgray;
 }
 
 .quote h3 {
-    color:#F7E6B1;
+    color:white;
 }
 
 .footer {
     margin-top: 25px;
     border-radius: 10px;
-    background-color: #baac83;
+    background-color: #75ADCC;
     color: white;
     padding: 10px;
     padding-left: 40px;
@@ -144,6 +145,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     box-shadow: 0px 1px 30px white;
+    font-size: larger;
 }
 
 .footer p {
@@ -154,15 +156,16 @@
     border-style:initial;
     border-radius: 5px;
     height: 30px;
-    width: 65px;
+    width: 70px;
     background-color: white;
     font-size: 13;
     margin-top: auto;
+    font-family: Bangers;
 }
 
 .action-butt:hover {
     color: white;
-    background-color: rgba(115, 48, 70, .85);
+    background-color: #ADCC75;
 }
 
 .call-action h3 {
@@ -179,10 +182,9 @@
 }
 
 .credit a {
-    text-decoration: none;
     color: white;
 }
 
 .credit a:hover {
-    color:#6CCDD5;
+    color:#ADCC75;
 }
